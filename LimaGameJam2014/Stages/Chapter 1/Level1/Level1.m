@@ -11,6 +11,7 @@
     CCScene *scene = [CCScene node];
 	Level1 *layer = [Level1 node];
 	[scene addChild: layer];
+    
     return scene;
 }
 
